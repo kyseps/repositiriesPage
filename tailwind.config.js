@@ -5,7 +5,11 @@ export default {
     fontFamily: {
       manrope: ["sans-serif"],
     },
-    extend: {},
+    extend: {
+      screens: {
+        sm: "200px",
+      },
+    },
   },
   plugins: [],
 };
